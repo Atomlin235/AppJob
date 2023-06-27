@@ -301,7 +301,7 @@ def main():
 
     st.write("The current proof of concept demonstrator can be used to scrape technology jobs within the northwest of uk" )
     st.write("Use the side bar on the left to: search by title or description and add/remove user skills as necessary" )
-    st.write("Job searchis currently limited to tech roles, queries outsidof this may result in errors" )
+    st.write("Job search is currently limited to tech roles, queries outside of this may result in errors" )
        
     st.title("Job Search")
 
