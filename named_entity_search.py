@@ -11,7 +11,7 @@ locale.setlocale(locale.LC_ALL, 'C')
 import csv
 import spacy
 nlp = spacy.load('en_core_web_sm')
-from nltk import word_tokenizepyth
+from nltk import word_tokenize
 from nltk.corpus import stopwords
 from collections import Counter
 from bs4 import BeautifulSoup as bs
@@ -297,18 +297,11 @@ def main():
         df_selected_sector = df[ (df['Technical_Skills'].isin(selected_sector)) ]
         df_selected_sector.to_csv('technical_skills.csv',index=False)
 
-
-
-
-
-#Header
     st.header("Job scraper tool 1.2")
 
     st.write("The current proof of concept demonstrator can be used to scrape technology jobs within the northwest of uk" )
     st.write("Use the side bar on the left to: search by title or description and add/remove user skills as necessary" )
-    st.write("Job search is currently limited to tech roles, queries outside of this may result in errors" )
-
-
+    st.write("Job searchis currently limited to tech roles, queries outsidof this may result in errors" )
        
     st.title("Job Search")
 
